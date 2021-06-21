@@ -1,10 +1,10 @@
 module turn_server
 
-go 1.12
+go 1.16
 
 require (
-	github.com/pion/turn/v2 v2.0.3
-	github.com/prometheus/common v0.9.1 // indirect
-	github.com/rs/zerolog v1.18.0
-	gopkg.in/ini.v1 v1.55.0
+	github.com/cloudwebrtc/flutter-webrtc-server v0.0.0-20210505112500-675099239a9c
+	github.com/pion/turn/v2 v2.0.5
+	github.com/rs/zerolog v1.23.0
+	gopkg.in/ini.v1 v1.62.0
 )
